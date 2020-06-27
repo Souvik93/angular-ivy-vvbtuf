@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<p> Hey Today Is {{dateToday | date: 'fullDate'}}</p>
+
+<p>  {{myObj | json}}</p> 
+
+
+<input type="text" name="myText" [(ngModel)]="myTextBox">
+
+
+<p>{{myTextBox | reverseString}}</p>
